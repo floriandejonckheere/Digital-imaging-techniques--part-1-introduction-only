@@ -655,7 +655,7 @@
 			<div class="slide" id="slide48">
 				<h2>BIT DEPTH </h2>
 				<ul>
-					<li><span class="underline">Example : In a 2-bit image:</span></li>
+					<li><span class="underline">Example: In a 2-bit image:</span></li>
 					<li>4 possible combinations: 00, 01, 10, and 11.</li>
 					<li>If "00" = black , and "11" = white: then "01" equals dark gray and "10" equals light gray.</li>
 					<li>bit depth = 2</li>
@@ -676,9 +676,6 @@
 			<div class="slide" id="slide50">
 				<h2>BIT DEPTH (2-bit image)</h2>
 				<figure>
-					<img src="assets/image60.png" width="21%">
-				</figure>
-				<figure>
 					<img src="assets/image61.png" width="21%">
 				</figure>
 				<div class="slidenumber">50</div>
@@ -687,9 +684,6 @@
 			<div class="slide" id="slide51">
 				<h2>BIT DEPTH (3-bit image)</h2>
 				<figure>
-					<img src="assets/image60.png" width="21%">
-				</figure>
-				<figure>
 					<img src="assets/image62.png" width="21%">
 				</figure>
 				<div class="slidenumber">51</div>
@@ -697,12 +691,6 @@
 	
 			<div class="slide" id="slide52">
 				<h2>BIT DEPTH ( 8-bit image)</h2>
-				<figure>
-					<img src="assets/image60.png" width="21%">
-				</figure>
-				<figure>
-					<img src="assets/image62.png" width="21%">
-				</figure>
 				<figure>
 					<img src="assets/image63.png" width="21%">
 				</figure>
@@ -793,53 +781,67 @@
 	
 			<div class="slide" id="slide60">
 				<h2>FILE SIZE </h2>
-				<p>= calculated by multiplying the surface area of a document (height x width) to be captured by the bit depth and the dpi 2 . Because image file size is represented in bytes, which are made up of 8 bits, divide this figure by 8.</p>
-				<p>Formula 1 for File Size:</p>
 				<ul>
-					<li> File Size = (height x width x bit depth x dpi 2 ) / 8</li>
+					<li>= calculated by multiplying the surface area of a document (height x width) to be captured by the bit depth and the dpi 2 . Because image file size is represented in bytes, which are made up of 8 bits, divide this figure by 8.</li>
+					<li>Formula 1 for File Size:
+					<ul>
+						<li> File Size = (height x width x bit depth x dpi 2 ) / 8</li>
+					</ul></li>
 				</ul>
 				<div class="slidenumber">60</div>
 			</div>
 	
 			<div class="slide" id="slide61">
 				<h2>FILE SIZE </h2>
-				<p>If the pixel dimensions are given, multiply them by each other and the bit depth to determine the number of bits in an image file. For instance, if a 24-bit image is captured with a digital camera with pixel dimensions of 2,048 x 3,072, then the file size equals (2048 x 3072 x 24)/8, or 18,874,368 bytes.</p>
-				<p>Formula 2 for File Size </p>
 				<ul>
-					<li>File Size = (pixel dimensions x bit depth) / 8</li>
+				<li>If the pixel dimensions are given, multiply them by each other and the bit depth to determine the number of bits in an image file. For instance, if a 24-bit image is captured with a digital camera with pixel dimensions of 2,048 x 3,072, then the file size equals (2048 x 3072 x 24)/8, or 18,874,368 bytes.</li>
+				<li>Formula 2 for File Size: 
+					<ul>
+						<li>File Size = (pixel dimensions x bit depth) / 8</li>
+					</ul></li>
 				</ul>
 				<div class="slidenumber">61</div>
 			</div>
 	
 			<div class="slide" id="slide62">
 				<h2>FILE SIZE </h2>
-				<p>File size naming convention: Because digital images often result in very large files, the number of bytes is usually represented in increments of 2 10 (1,024) or more:</p>
-				<p>1 Kilobyte (KB) = 1,024 bytes </p>
-				<p>1 Megabyte (MB) = 1,024 KB </p>
-				<p>1 Gigabyte (GB) = 1,024 MB </p>
-				<p>1 Terabyte (TB) = 1,024 GB </p>
+				<ul>
+					<li>File size naming convention: Because digital images often result in very large files, the number of bytes is usually represented in increments of 2 10 (1,024) or more:</li>
+				</ul>
+				<ul>
+					<li>1 Kilobyte (KB) = 1,024 bytes </li>
+					<li>1 Megabyte (MB) = 1,024 KB </li>
+					<li>1 Gigabyte (GB) = 1,024 MB </li>
+					<li>1 Terabyte (TB) = 1,024 GB </li>
+				</ul>
 				<div class="slidenumber">62</div>
 			</div>
 	
 			<div class="slide" id="slide63">
 				<h2>COMPRESSION </h2>
-				<p>= used to reduce image file size for storage, processing, and transmission. The file size for digital images can be quite large, taxing the computing and networking capabilities of many systems.</p>
-				<p>All compression techniques abbreviate the string of binary code in an uncompressed image to a form of mathematical shorthand, based on complex algorithms.</p>
-				<p>There are several compression techniques available.</p>
+				<ul>
+					<li>= used to reduce image file size for storage, processing, and transmission. The file size for digital images can be quite large, taxing the computing and networking capabilities of many systems.</li>
+					<li>All compression techniques abbreviate the string of binary code in an uncompressed image to a form of mathematical shorthand, based on complex algorithms.</li>
+					<li>There are several compression techniques available.</li>
+				</ul>
 				<div class="slidenumber">63</div>
 			</div>
 	
 			<div class="slide" id="slide64">
 				<h2>Compression</h2>
 				<p>Compression schemes: characterized as either lossless (= &ldquo; verliesvrij &rdquo;) or lossy (= &ldquo; kwaliteitsverlies &ldquo;)</p>
-				<p>Lossless schemes: abbreviate binary code without discarding any information =&gt; when image is "decompressed" it is bit for bit identical to original; often used with bitonal scanning of textual material.</p>
-				<p>Lossy schemes: such as JPEG, utilize a means for averaging or discarding the least significant information, based on an understanding of visual perception. However, it may be extremely difficult to detect the effects of lossy compression; typically used with tonal images.</p>
+				<ul>
+				<li>Lossless schemes: abbreviate binary code without discarding any information =&gt; when image is "decompressed" it is bit for bit identical to original; often used with bitonal scanning of textual material.</li>
+				<li>Lossy schemes: such as JPEG, utilize a means for averaging or discarding the least significant information, based on an understanding of visual perception. However, it may be extremely difficult to detect the effects of lossy compression; typically used with tonal images.</li>
+				</ul>
 				<div class="slidenumber">64</div>
 			</div>
 	
 			<div class="slide" id="slide65">
 				<h2>Compression </h2>
-				<p>Lossy Compression: Note the effects of JPEG lossy compression on the zoomed image (left). In the bottom image, artifacts are visible in the form of 8 x 8 pixel squares, and fine details such as eyelashes have disappeared.</p>
+				<ul>
+					<li>Lossy Compression: Note the effects of JPEG lossy compression on the zoomed image (left). In the bottom image, artifacts are visible in the form of 8 x 8 pixel squares, and fine details such as eyelashes have disappeared.</li>
+				</ul>
 				<figure>
 					<img src="assets/image72.png" width="44%">
 				</figure>
@@ -849,40 +851,53 @@
 			<div class="slide" id="slide66">
 				<h2>Explanation of File Formats </h2>
 				<p>It is important to have some notion on the meaning of the file formats. </p>
-				<p>TIFF (. tif ), JPG (.jpg, .jpeg), GIF (.gif) and PNG (. png ) are file formats (and their respective file extensions) that you are likely to encounter.</p>
-				<p>Other image file formats are used to a lesser extent; these formats are often proprietary, such as Photoshop . psd files.</p>
+				<ul>
+				<li>TIFF (. tif ), JPG (.jpg, .jpeg), GIF (.gif) and PNG (. png ) are file formats (and their respective file extensions) that you are likely to encounter.</li>
+				<li>Other image file formats are used to a lesser extent; these formats are often proprietary, such as Photoshop . psd files.</li>
+				</ul>
 				<div class="slidenumber">66</div>
 			</div>
 	
 			<div class="slide" id="slide67">
 				<h2>Explanation of File Formats </h2>
-				<p>TIFF:</p>
 				<ul>
-					<li>Tagged Image File Format</li>
-					<li>A lossless file format</li>
-					<li>Format that is widely supported across operating systems.</li>
-					<li>the best file format for archiving high quality images.</li>
+					<li>TIFF:
+					<ul>
+						<li>Tagged Image File Format</li>
+						<li>A lossless file format</li>
+						<li>Format that is widely supported across operating systems.</li>
+						<li>the best file format for archiving high quality images.</li>
+					</ul></li>
+					<li>JPG or JPEG: 
+					<ul>
+						<li> Joint Photographers Expert Group </li>
+						<li> specifically created for photographs, and can contain millions of colours. </li>
+						<li> are automatically compressed (you can choose the level of compression to match your desired image quality), resulting in a relatively small file size while still retaining quality. </li>
+						<li> ideal for email and Web use.</li>
+						<li> are lossy, discarding information each time that they are compressed.</li>
+					</ul></li>
 				</ul>
-				<p>JPG or JPEG: </p>
 				<div class="slidenumber">67</div>
 			</div>
 	
 			<div class="slide" id="slide68">
 				<h2>Explanation of File Formats </h2>
-				<p>GIF: </p>
 				<ul>
-					<li>Graphics Interchange Format </li>
-					<li>lossless file format </li>
-					<li>preferred for graphics, because it keeps edges and lines sharp. </li>
-					<li>limited to 256 or fewer colours</li>
-					<li>not recommended for photographs </li>
-				</ul>
-				<p>PNG: </p>
-				<ul>
-					<li>Portable Network Graphics format </li>
-					<li>an open source substitute for GIFs. </li>
-					<li>provides a higher lossless compression rate than GIFs. </li>
-					<li>provides a useful format for the storage of images during intermediate stages of editing. </li>
+					<li>GIF: 
+					<ul>
+						<li>Graphics Interchange Format </li>
+						<li>lossless file format </li>
+						<li>preferred for graphics, because it keeps edges and lines sharp. </li>
+						<li>limited to 256 or fewer colours</li>
+						<li>not recommended for photographs </li>
+					</ul></li>
+					<li>PNG: 
+					<ul>
+						<li>Portable Network Graphics format </li>
+						<li>an open source substitute for GIFs. </li>
+						<li>provides a higher lossless compression rate than GIFs. </li>
+						<li>provides a useful format for the storage of images during intermediate stages of editing. </li>
+					</ul></li>
 				</ul>
 				<div class="slidenumber">68</div>
 			</div>
@@ -901,7 +916,9 @@
 	
 			<div class="slide" id="slide70">
 				<h2>Colour calibration</h2>
-				<p>the Macbeth ColorChecker</p>
+				<ul>
+					<li>the Macbeth ColorChecker</li>
+				</ul>
 				<figure>
 					<img src="assets/image75.png" width="31%">
 				</figure>
@@ -910,24 +927,28 @@
 	
 			<div class="slide" id="slide71">
 				<h2>Image quality</h2>
-				<p><strong>The photography:</strong> a crucial step for successful image analysis, which requires a high quality image with which to work.</p>
-				<p>=&gt;The digital camera must provide resolution appropriate for the type of image and magnifications of interest;</p>
-				<p>Most analyses require <strong>uncompressed file formats </strong>such as TIFF to prevent loss of image quality.</p>
-				<p>What is considered a good quality image can vary.</p>
 				<ul>
-					<li>For published descriptions of a material: an image that closely resembles what one sees when looking in the microscope is often desirable.</li>
-					<li>For image analysis: may require enhancement of certain features, exaggeration of contrast, etc.</li>
-					<li>Multiple versions of the same image may be produced during preprocessing, during various phases of analysis, and as publications are prepared; the original uncompressed image must always be retained!</li>
+					<li><strong>The photography:</strong> a crucial step for successful image analysis, which requires a high quality image with which to work.</li>
+					<li>=&gt;The digital camera must provide resolution appropriate for the type of image and magnifications of interest;</li>
+					<li>Most analyses require <strong>uncompressed file formats </strong>such as TIFF to prevent loss of image quality.</li>
+					<li>What is considered a good quality image can vary.
+					<ul>
+						<li>For published descriptions of a material: an image that closely resembles what one sees when looking in the microscope is often desirable.</li>
+						<li>For image analysis: may require enhancement of certain features, exaggeration of contrast, etc.</li>
+						<li>Multiple versions of the same image may be produced during preprocessing, during various phases of analysis, and as publications are prepared; the original uncompressed image must always be retained!</li>
+					</ul></li>
 				</ul>
 				<div class="slidenumber">71</div>
 			</div>
 	
 			<div class="slide" id="slide72">
 				<h2>IMAGE ENHANCEMENT OR PREPROCESSING </h2>
-				<p>often necessary to enhance features of interest in order to perform an analysis. </p>
-				<p>When a new project is initiated, identify a reliable protocol for enhancement. The same procedure can be applied routinely to similar materials undergoing the same analysis, and often routines can be set up to perform image enhancement or preprocessing steps automatically.</p>
-				<p>Includes changing contrast, brightness, applying filters, etc&hellip; </p>
-				<p>Always keep original image! </p>
+				<ul>
+					<li>often necessary to enhance features of interest in order to perform an analysis. </li>
+					<li>When a new project is initiated, identify a reliable protocol for enhancement. The same procedure can be applied routinely to similar materials undergoing the same analysis, and often routines can be set up to perform image enhancement or preprocessing steps automatically.</li>
+					<li>Includes changing contrast, brightness, applying filters, etc&hellip; </li>
+					<li>Always keep original image! </p>
+				</ul>
 				<div class="slidenumber">72</div>
 			</div>
 	
