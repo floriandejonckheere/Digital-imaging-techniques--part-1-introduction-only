@@ -1,10 +1,13 @@
 var gulp = require('gulp'),
-    sync = require('browser-sync').create();
+	sync = require('browser-sync').create();
 
-gulp.task('default', function () {
+gulp.task('default', () => {
 	sync.init({
+		ui: false,
 		notify: false,
-		server: { baseDir: './', },
+		server: {
+			baseDir: '.'
+		}
 	});
-	gulp.watch(['*', '*/*', '*/*/*', '!node_modules/']).on('change', sync.reload);
+	gulp.watch('index.html').on('change', sync.reload);
 });
